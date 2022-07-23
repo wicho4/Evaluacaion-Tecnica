@@ -1,0 +1,15 @@
+CREATE TABLE `empleados` (
+  `Login` text,
+  `Sueldo` text,
+  `Fecha Ingreso` datetime DEFAULT NULL,
+  `userId` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
+CREATE TABLE `usuarios` (
+  `Login` text,
+  `NOMBRES` text,
+  `PATERNO` text,
+  `MATERNO` text,
+  `userId` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
